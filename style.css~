@@ -1,0 +1,304 @@
+body {
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    font: 15px Hack;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.padded {
+    padding: 4px;
+    font: 18px Hack;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Adjust the width as needed */
+    margin: auto;
+}
+
+.table-header,
+.table-row {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.table-header {
+    font-weight: bold;
+    background-color: #121212;
+}
+
+.table-cell {
+    /*flex: 1 1 0;*/
+    padding: 8px;
+}
+
+.actable-cell {
+    padding: 8px;
+    flex: 1 1 0;
+}
+
+.table-cell:nth-child(1) {
+    flex: 0 0 10%;
+}
+
+.table-cell:nth-child(2) {
+    flex: 0 0 20%;
+}
+
+.table-cell:nth-child(3) {
+    flex: 1;
+}
+
+@keyframes rotateColor {
+    0% {
+	color: rgb(255, 127, 0);
+    }
+    1.67% {
+	color: rgb(255, 159, 0);
+    }
+    3.33% {
+	color: rgb(255, 191, 0);
+    }
+    5% {
+	color: rgb(255, 223, 0);
+    }
+    6.67% {
+	color: rgb(255, 255, 0);
+    }
+    8.33% {
+	color: rgb(223, 255, 0);
+    }
+    10% {
+	color: rgb(191, 255, 0);
+    }
+    11.67% {
+	color: rgb(159, 255, 0);
+    }
+    13.33% {
+	color: rgb(127, 255, 0);
+    }
+    15% {
+	color: rgb(95, 255, 0);
+    }
+    16.67% {
+	color: rgb(63, 255, 0);
+    }
+    18.33% {
+	color: rgb(31, 255, 0);
+    }
+    20% {
+	color: rgb(0, 255, 0);
+    }
+    21.67% {
+	color: rgb(0, 255, 31);
+    }
+    23.33% {
+	color: rgb(0, 255, 63);
+    }
+    25% {
+	color: rgb(0, 255, 95);
+    }
+    26.67% {
+	color: rgb(0, 255, 127);
+    }
+    28.33% {
+	color: rgb(0, 255, 159);
+    }
+    30% {
+	color: rgb(0, 255, 191);
+    }
+    31.67% {
+	color: rgb(0, 255, 223);
+    }
+    33.33% {
+	color: rgb(0, 255, 255);
+    }
+    35% {
+	color: rgb(0, 223, 255);
+    }
+    36.67% {
+	color: rgb(0, 191, 255);
+    }
+    38.33% {
+	color: rgb(0, 159, 255);
+    }
+    40% {
+	color: rgb(0, 127, 255);
+    }
+    41.67% {
+	color: rgb(0, 95, 255);
+    }
+    43.33% {
+	color: rgb(0, 63, 255);
+    }
+    45% {
+	color: rgb(0, 31, 255);
+    }
+    46.67% {
+	color: rgb(0, 0, 255);
+    }
+    48.33% {
+	color: rgb(31, 0, 255);
+    }
+    50% {
+	color: rgb(63, 0, 255);
+    }
+    51.67% {
+	color: rgb(95, 0, 255);
+    }
+    53.33% {
+	color: rgb(127, 0, 255);
+    }
+    55% {
+	color: rgb(159, 0, 255);
+    }
+    56.67% {
+	color: rgb(191, 0, 255);
+    }
+    58.33% {
+	color: rgb(223, 0, 255);
+    }
+    60% {
+	color: rgb(255, 0, 255);
+    }
+    61.67% {
+	color: rgb(255, 0, 223);
+    }
+    63.33% {
+	color: rgb(255, 0, 191);
+    }
+    65% {
+	color: rgb(255, 0, 159);
+    }
+    66.67% {
+	color: rgb(255, 0, 127);
+    }
+    68.33% {
+	color: rgb(255, 0, 95);
+    }
+    70% {
+	color: rgb(255, 0, 63);
+    }
+    71.67% {
+	color: rgb(255, 0, 31);
+    }
+    73.33% {
+	color: rgb(255, 0, 0);
+    }
+    75% {
+	color: rgb(255, 31, 0);
+    }
+    76.67% {
+	color: rgb(255, 63, 0);
+    }
+    78.33% {
+	color: rgb(255, 95, 0);
+    }
+    80% {
+	color: rgb(255, 127, 0);
+    }
+    81.67% {
+	color: rgb(255, 159, 0);
+    }
+    83.33% {
+	color: rgb(255, 191, 0);
+    }
+    85% {
+	color: rgb(255, 223, 0);
+    }
+    86.67% {
+	color: rgb(255, 255, 0);
+    }
+    88.33% {
+	color: rgb(223, 255, 0);
+    }
+    90% {
+	color: rgb(191, 255, 0);
+    }
+    91.67% {
+	color: rgb(159, 255, 0);
+    }
+    93.33% {
+	color: rgb(127, 255, 0);
+    }
+    95% {
+	color: rgb(95, 255, 0);
+    }
+    96.67% {
+	color: rgb(63, 255, 0);
+    }
+    98.33% {
+	color: rgb(31, 255, 0);
+    }
+    100% {
+	color: rgb(0, 255, 0);
+    }
+}
+
+h1 {
+    font: 50px Hack;
+    animation-name: rotateColor;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    -webkit-transition: all 0.9s ease;
+    -moz-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+    animation-direction: alternate;
+}
+
+.contact-form {
+    width: 400px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
